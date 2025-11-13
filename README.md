@@ -21,7 +21,7 @@ Auto-generated API documentation (Swagger UI)
 
 Clean, modular project structure
 
-Ready for production upgrades (PostgreSQL, Docker, etc.)
+
 
 📦 Tech Stack
 
@@ -41,6 +41,7 @@ Uvicorn
 
 
 ⚙️ Installation & Setup
+
 1️⃣ Clone the repository
 git clone https://github.com/nahidulhasan/fastapi-task-manager.git
 cd fastapi-task-manager
