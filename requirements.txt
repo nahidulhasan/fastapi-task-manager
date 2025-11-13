@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy>=1.4
+pydantic
+python-jose[cryptography]
+passlib[bcrypt]
+alembic    # optional later if you want migrations
+pytest
+httpx       # for tests
+python-dotenv
