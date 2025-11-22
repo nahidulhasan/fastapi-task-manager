@@ -55,9 +55,11 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 3️⃣ Install dependencies
+
 pip install -r requirements.txt
 
 4️⃣ Run the API
+
 uvicorn app.main:app --reload
 
 API will be available at:
@@ -168,4 +170,3 @@ Feel free to open issues or suggest new features.
 📜 License
 
 MIT License.
-Free to use, modify, and distribute.
