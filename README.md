@@ -43,17 +43,23 @@ Uvicorn
 ⚙️ Installation & Setup
 
 1️⃣ Clone the repository
+
 git clone https://github.com/nahidulhasan/fastapi-task-manager.git
+
 cd fastapi-task-manager
 
 2️⃣ Create & activate virtual environment
+
 python3 -m venv .venv
+
 source .venv/bin/activate
 
 3️⃣ Install dependencies
+
 pip install -r requirements.txt
 
 4️⃣ Run the API
+
 uvicorn app.main:app --reload
 
 API will be available at:
@@ -63,6 +69,7 @@ Interactive API docs (Swagger UI):
 http://127.0.0.1:8000/docs
 
 🔐 Authentication Flow
+
 1️⃣ Register a user
 
 POST /auth/register
@@ -150,4 +157,3 @@ Feel free to open issues or suggest new features.
 📜 License
 
 MIT License.
-Free to use, modify, and distribute.
