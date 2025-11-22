@@ -43,11 +43,15 @@ Uvicorn
 ⚙️ Installation & Setup
 
 1️⃣ Clone the repository
+
 git clone https://github.com/nahidulhasan/fastapi-task-manager.git
+
 cd fastapi-task-manager
 
 2️⃣ Create & activate virtual environment
+
 python3 -m venv .venv
+
 source .venv/bin/activate
 
 3️⃣ Install dependencies
@@ -63,6 +67,7 @@ Interactive API docs (Swagger UI):
 http://127.0.0.1:8000/docs
 
 🔐 Authentication Flow
+
 1️⃣ Register a user
 
 POST /auth/register
@@ -87,8 +92,11 @@ password=123456
 Response:
 
 {
+
   "access_token": "<JWT_TOKEN>",
+
   "token_type": "bearer"
+
 }
 
 
@@ -97,6 +105,7 @@ Use this token for all protected routes:
 Authorization: Bearer <token>
 
 📝 Task Endpoints
+
 ➕ Create a Task
 
 POST /tasks/
@@ -105,16 +114,20 @@ Requires authentication.
 Example:
 
 {
+
   "title": "Buy groceries",
+
   "description": "Milk, eggs, bread",
+
   "priority": "HIGH",
+
   "due_date": "2025-01-31T10:00:00"
 }
 
 📖 Get All Tasks
 
 GET /tasks/
-Protected.
+
 
 🔍 Get Single Task
 
@@ -127,13 +140,18 @@ PUT /tasks/{task_id}
 Example:
 
 {
+
   "title": "Updated title",
+
   "completed": true
+
 }
 
 🗑 Delete Task
 
-DELETE /tasks/{task_id}
+DELETE 
+
+/tasks/{task_id}
 
 🗄 Database
 
